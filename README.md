@@ -1,0 +1,4 @@
+# JWE
+Joint Chinese Word Embeddings with Characters and Fine-grained Subcharacter Components Embeddings 
+
+Word embeddings have attracted much at- tention recently given its simplicity of word representation and generalization ability for a lot of downstream tasks. Dif- ferent from other writing systems such as Alphabet, Chinese is a kind of hiero- glyphs and represents rich morphological information in its characters and subchar- acter components as radicals and compo- nents themselves being a character. In this work, we propose an approach to jointly embed Chinese words as well as their characters and fine-grained subchar- acter components. Different from previ- ous approaches, we collected 13,253 sub- character components to demonstrate the existing approaches of decomposing Chi- nese characters are not enough. Evalua- tion on both word similarity and word anal- ogy tasks demonstrates the superior perfor- mance of our model. 
