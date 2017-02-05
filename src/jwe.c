@@ -1,4 +1,3 @@
-// Implementation of improving chinese word embeddings with subword information
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
