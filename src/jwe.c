@@ -659,7 +659,7 @@ void TrainModel(){
   fclose(fo);
   wchar_t ch[10];
   if (strlen(output_char)){
-    fo = open(output_char, "wb");
+    fo = fopen(output_char, "wb");
     if (fo == NULL){
       fprintf(stderr, "Cannot open %s: permission denied\n", output_char);
     }
@@ -677,7 +677,7 @@ void TrainModel(){
     fclose(fo);
   }
   if (strlen(output_comp)){
-    fo = open(output_comp, "wb");
+    fo = fopen(output_comp, "wb");
     if (fo == NULL){
       fprintf(stderr, "Cannot open %s: permission denied\n", output_comp);
     }
