@@ -8,7 +8,7 @@ Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/
 * Subcharacter radicals and components.  Deploy the scipy codes in ChineseCharCrawler on [Scrapy Cloud](https://scrapinghub.com), you can crawl the resource from [HTTPCN](http://tool.httpcn.com/zi/).
 
 ## Model Training
-- 'cd JWE/src', compile the code by 'make all'. 
+- `cd JWE/src`, compile the code by 'make all'. 
 - run './run.sh', you may modify the parameters in file 'run.sh'
 - run './jwe' for parameters details
 - Input files format:
