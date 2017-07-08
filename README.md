@@ -3,8 +3,8 @@ Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Com
 
 ## Preparation
 You need to prepare a training corpus and Chinese subcharacter radicals or components. 
-* Training corpus. Download [Chinese Wikipedia Dump] (http://download.wikipedia.com/zhwiki).
-Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/wiki-corpus-zh/), you can extract the content and do some preprocessing.
+* Training corpus. Download [Chinese Wikipedia Dump](http://download.wikipedia.com/zhwiki).
+Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/wiki-corpus-zh/), you can extract the content and do some preprocessings.
 * Subcharacter radicals and components.  Deploy the scipy codes in ChineseCharCrawler on [Scrapy Cloud](https://scrapinghub.com), you can crawl the resource from [HTTPCN](http://tool.httpcn.com/zi/).
 
 ## Model Training
@@ -14,12 +14,13 @@ Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/
 - Input files format:
 Corpus 'wiki.txt' contains segmented Chinese words, use UTF-8  encoding
 Subcharacters 'comp.txt' contains a list of components which are seperated by blank space, 'char2comp.txt', each line is a Chinese character and its components, e.g.:
-'''
+
+```
 侩 亻 人 云
 侨 亻 乔
 侧 亻 贝 刂
 侦 亻 卜 贝
-'''
+```
 
 ## Model Evaluation
 
