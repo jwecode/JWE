@@ -24,7 +24,7 @@ Subcharacters `comp.txt` contains a list of components which are seperated by bl
 
 ## Model Evaluation
 
-Two Chinese word similarity datasets `240.txt` and `297.txt` and one Chinese analogy dataset `analogy.txt` in `JWE/evaluation` folder are provided by [Chen et al., IJCAI, 2015](https://github.com/Leonard-Xu/CWE/tree/master/data).
+Two Chinese word similarity datasets `240.txt` and `297.txt` and one Chinese analogy dataset `analogy.txt` in `JWE/evaluation` folder are provided by [(Chen et al., IJCAI, 2015)](https://github.com/Leonard-Xu/CWE/tree/master/data).
 
 cd `JWE/src`, then 
 - run `python word_sim.py -a <similarity_file> -e <embed_file>` for word similarity evaluation, where `similarity_file` is the word similarity file, e.g., `240.txt` or `297.txt`, `embed_file` is the trained word embedding file.
