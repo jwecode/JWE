@@ -5,7 +5,7 @@ Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Com
 You need to prepare a training corpus and Chinese subcharacter radicals or components. 
 * Training corpus. Download [Chinese Wikipedia Dump](http://download.wikipedia.com/zhwiki).
 Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/wiki-corpus-zh/), you can extract the content and do some preprocessings.
-* Subcharacter radicals and components.  Deploy the scipy codes in ChineseCharCrawler on [Scrapy Cloud](https://scrapinghub.com), you can crawl the resource from [HTTPCN](http://tool.httpcn.com/zi/).
+* Subcharacter radicals and components.  Deploy the scipy codes in `JWE/ChineseCharCrawler` on [Scrapy Cloud](https://scrapinghub.com), you can crawl the resource from [HTTPCN](http://tool.httpcn.com/zi/).
 
 ## Model Training
 - `cd JWE/src`, compile the code by `make all`. 
