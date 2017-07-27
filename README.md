@@ -1,6 +1,10 @@
+
+
 # JWE
 Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
 
+## NOTE
+The paper has been accepted, so I moved this temporary repo to our group [github](https://github.com/HKUST-KnowComp/JWE). 
 ## Preparation
 You need to prepare a training corpus and Chinese subcharacter radicals or components. 
 * Training corpus. Download [Chinese Wikipedia Dump](http://download.wikipedia.com/zhwiki).
